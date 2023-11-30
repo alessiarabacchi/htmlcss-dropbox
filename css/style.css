@@ -250,3 +250,23 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.last-title {
+  font-size: 35px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.last-span {
+  border-bottom: 1px solid black;
+}
+
+.last-icon-span {
+  margin-left: 150px;
+  border-bottom: 1px solid black;
+}
+
+.questions {
+  margin: 40px 0;
+  border-bottom: 1px solid black;
+}
