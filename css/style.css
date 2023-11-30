@@ -57,4 +57,42 @@ a {
   background-color: #0061ff;
   color: white;
   font-size: 20px;
+  padding: 5px;
+}
+
+/*MAIN*/
+.blue-container {
+  background-color: #b4d0e7;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 65%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.jumbo-title {
+  display: block;
+  text-align: left;
+  font-size: 35px;
+}
+
+.jumbo-text {
+  width: 50%;
+  display: block;
+  text-align: left;
+  padding: 15px;
+}
+
+.jumbo-img {
+  width: 50%;
+  display: block;
+  text-align: right;
+  position: relative;
+  top: -170px;
+  right: -450px;
 }
