@@ -101,7 +101,7 @@ a {
 /*SEZIONI*/
 .container {
   width: 60%;
-  height: 800px;
+  height: 600px;
   margin: 100px auto;
   padding: 30px;
 }
@@ -269,4 +269,35 @@ a {
 .questions {
   margin: 40px 0;
   border-bottom: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+.footer-section {
+  color: white;
+  float: left;
+  width: calc(100% / 5);
+  margin: 40px 0;
+}
+
+.footer-section h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-section .dropbox {
+  border-bottom: 3px solid white;
+}
+
+.lenguage {
+  color: white;
 }
