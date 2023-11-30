@@ -23,3 +23,38 @@ a {
 }
 
 /*HEADER*/
+.header-container {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  gap: 20px;
+}
+
+.links {
+  color: black;
+  display: flex;
+  gap: 40px;
+  margin-left: 15px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  gap: 20px;
+}
+
+.button {
+  background-color: #0061ff;
+  color: white;
+  font-size: 20px;
+}
