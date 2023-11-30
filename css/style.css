@@ -60,7 +60,7 @@ a {
   padding: 5px;
 }
 
-/*MAIN*/
+/*JUMBO*/
 .blue-container {
   background-color: #b4d0e7;
   width: 100%;
@@ -70,7 +70,7 @@ a {
 }
 
 .wrapper {
-  width: 65%;
+  width: 75%;
   height: 350px;
   margin: 0 auto;
 }
@@ -79,6 +79,7 @@ a {
   display: block;
   text-align: left;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .jumbo-text {
@@ -94,5 +95,40 @@ a {
   text-align: right;
   position: relative;
   top: -170px;
-  right: -450px;
+  right: -550px;
+}
+
+/*SEZIONI*/
+.container {
+  width: 60%;
+  height: 800px;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.check {
+  margin: 20px;
+}
+
+.card {
+  width: calc(60% / 3);
+  height: 680px;
+  display: block;
+  float: left;
+  margin: 0 50px;
+  border: 1px solid black;
+}
+
+.card-horizontal {
+  width: 84%;
+  height: 200px;
+  display: block;
+  float: left;
+  margin: 20px 50px;
+  border: 1px solid black;
 }
